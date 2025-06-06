@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make body at least the height of the viewport */
+  margin: 0;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Permite que o #root expanda e ocupe o espaço disponível */
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li{
+  float: left;
+  padding: 15px;
+}
+
+.flex-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.react-logo {
+  width: 55px;
+  margin: 20px;
+}
+
+main {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: black; /* Black background for the footer */
+  color: white; /* Ensure text is visible on black background */
+  padding: 20px; /* Add some padding for better appearance */
+  text-align: center; /* Center footer text */
+}
