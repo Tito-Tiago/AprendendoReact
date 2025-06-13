@@ -1,6 +1,11 @@
 function Navbar() {
     return (
-        <h1>navbar</h1>
+        <header>
+            <nav>
+                <img src="../assets/react.svg" alt="react logo" />
+            </nav>
+            <h1>ReactFacts</h1>
+        </header>
     )
 }
 

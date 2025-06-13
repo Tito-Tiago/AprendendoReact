@@ -1,15 +1,14 @@
-import Header from '../../first-app/src/components/Header'
 import './App.css'
 
-import './components/header'
-import './components/navbar'
+import Main from './components/main.jsx'
+import Navbar from './components/navbar.jsx'
 
 function App() {
 
   return (
     <>
-      <Header />
       <Navbar />
+      <Main />
     </>
   )
 }
