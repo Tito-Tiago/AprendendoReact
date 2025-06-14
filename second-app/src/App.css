@@ -1,13 +1,32 @@
-header {
+.page {
   display: flex;
-  align-items: center;
-  gap: 8px
+  flex-direction: column;
 }
 
-header img {
+header {
+  background-color: #21222A;
+  flex: 20%;
+  padding: 30px 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+}
+
+nav > img {
   height: 29px;
 }
 
-header h1 {
-  font-size: 22.2px;
+nav > h1 {
+  font-size: 1.4rem;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+main {
+  background-color: #282D35;
+  flex: 80%;
 }

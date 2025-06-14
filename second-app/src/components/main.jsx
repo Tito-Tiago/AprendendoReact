@@ -1,6 +1,8 @@
 function Main() {
     return (
-        <h1>main goes here</h1>
+        <main>
+            <h1>Main goes here</h1>
+        </main>
     )
 }
 

@@ -5,8 +5,8 @@ function Navbar() {
         <header>
             <nav>
                 <img src={reactLogo} alt="react logo" />
-            </nav>
             <h1>ReactFacts</h1>
+            </nav>
         </header>
     )
 }
