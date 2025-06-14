@@ -1,12 +1,12 @@
 .page {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 header {
   background-color: #21222A;
-  flex: 20%;
-  padding: 30px 20px;
+  padding: 25px 20px;
 }
 
 nav {
@@ -28,5 +28,17 @@ nav > h1 {
 
 main {
   background-color: #282D35;
-  flex: 80%;
+  flex-grow: 1;
+  color: white; 
+  padding: 20px 27px; 
+}
+
+main > h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+li {
+  padding: 7px;
+  max-width: 400px;
 }
